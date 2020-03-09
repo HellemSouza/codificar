@@ -1,0 +1,28 @@
+<?php
+include_once "Oficina2.0.php";
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisar Orçamento</title>
+    <style>
+        h1{
+            color: #23a076;
+            text-shadow: 1px 1px 1px #072e38;
+        }
+    </style>
+</head>
+<body>
+<h1>Pesquisar orçamento</h1>
+<a href="Oficina2.0.html">Novo Orçamento</a><br>
+<div>
+    <form method="post" action="PesquisaOrcamento.php">
+        Data : <input type="date" name="date"/><br/>
+        Cliente : <input type="name" name="client"/><br/>
+        Vendedor : <input type="name" name="salesman"/><br/>
+        <input name="SendPesqOrc" type="submit" value="Pesquisar Orçamento"/><br/>
+    </form>
+</div>
+</body>
+</html>
